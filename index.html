@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY PORtfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1 class="my-profile-text" onclick="logo()">My-Profile</h1>
+    </nav>
+
+    <main>
+      <section class="hero-section container">
+        <div class="left-main"></div>
+        <div class="left">
+          <div class="heading">
+            <h1 class="main-heading">
+              <span style="color: #c446ff">I am </span>
+              <br />  
+              <i> Web Developer</i>
+              <br />
+              <span style="color: #c446ff"> & </span>
+              <i> Graphic Designer</i>
+            </h1>
+            <!-- <h3 style="font-size: 30px; font-weight: 300; padding: 0; margin: 0;"> BUT <span style="color: #C446FF; font-size: 30px;">why?</span></h3> -->
+
+       
+
+
+          </div>
+        </div>
+        <div class="right">
+          <div class="box-main">
+            <div class="row-first">
+              <div class="box-one">
+                <div
+                  class="box-one-left hover border-right-bottem"
+                  onclick="Me()"
+                >
+                  <h2>Me</h2>
+                </div>
+                <div class="box-one-right hover" onclick="skill()">
+                  <h2>skills</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row-second">
+              <div class="box-two box-one">
+                <div class="box-two-left hover" onclick="experience()">
+                  <h2>experience</h2>
+                </div>
+                <div class="box-two-right hover" onclick="why()">
+                  <h2>why?</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row-three">
+              <div class="box-three box-one">
+                <div class="box-three-left hover" id="game">
+                  <h2>game</h2>
+                </div>
+                <div class="box-three-right hover" onclick="contact()">
+                  <h2>contact</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
