@@ -87,7 +87,7 @@ function contact() {
   left_section.innerHTML = `      <div class="contact-parent">
               <div class="contact-number"><h3>Contact Number : <span>+92 324 4629 646</span></h3></div>
               <div class="contact"><h3>Email : <a href="">abdulraheem.pk02@gmail.com</a></h3></div>
-              <div class="contact"><h3>GitHub : <a href="https://github.com/reemi7">github/profile</a></h3></div>
+              <div class="contact"><h3>GitHub : <a href="https://github.com/reemi7" target="_blank" >github/profile</a></h3></div>
             </div>`;
   
 }
